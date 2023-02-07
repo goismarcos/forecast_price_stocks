@@ -38,8 +38,9 @@ In summary, the LSTM network is an advanced Machine Learning technique that is d
 
 ## 🥳 **How make forecast in program**
 
-1. Use a **EC2 machine** in AWS with allow for write on **S3**
-2. Install packges python in file **```requirements.txt```**
-3. Open the file **```app-programmatic.py```** and configure variables days and list_stocks_names
+1. Use a **EC2 machine** in AWS with allow for write on **```S3```**
+2. Criete a bucket on S3 and replace on file **```app-programmatic.py```** your name in **```my-data-stocks```**
+3. Install packges python in file **```requirements.txt```**
+4. Open the file **```app-programmatic.py```** and configure variables days and list_stocks_names
     - **```list_stocks_names```**: is List of stocks for forecast
      - **```days```**: is how many days you forecast after
